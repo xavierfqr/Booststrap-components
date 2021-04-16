@@ -1,5 +1,5 @@
 <template>
-  <div class="brand-container">
+  <div class="brand-container" @click="goToLocation()">
       <slot/>
   </div>
   
@@ -9,6 +9,12 @@
 
 export default {
   name: 'b-navbar-brand',
+  methods:{
+    goToLocation: function () {
+      if (!this.disabled)
+        location.href="/"
+    }
+  }
 }
 
 </script>
