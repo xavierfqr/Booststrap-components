@@ -9,6 +9,7 @@ import navProgress from './pages/navProgress';
 import navSkeleton from './pages/navSkeleton';
 import navTabs from './pages/navTabs';
 import navDropdown from './pages/navDropdown';
+import Home from './pages/Home'
 
 
 Vue.config.productionTip = false
@@ -17,6 +18,10 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   routes:[
+    {
+      path:'/',
+      component:Home
+    },
     {
       path:'/navModal',
       name:'navModal',
