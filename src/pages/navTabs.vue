@@ -11,6 +11,30 @@
       <b-tab title="Second" active><p>I'm the second tab</p></b-tab>
       <b-tab title="Disabled" disabled><p>I'm the disabled tab</p></b-tab>
     </b-tabs>
+
+    <b-tabs card>
+      <b-tab title="First" ><p>I'm the first tab</p></b-tab>
+      <b-tab title="Second" active><p>I'm the second tab</p></b-tab>
+      <b-tab title="Disabled" disabled><p>I'm the disabled tab</p></b-tab>
+    </b-tabs>
+
+    <b-tabs vertical>
+      <b-tab title="First" ><p>I'm the first tab</p></b-tab>
+      <b-tab title="Second" active><p>I'm the second tab</p></b-tab>
+      <b-tab title="Disabled" disabled><p>I'm the disabled tab</p></b-tab>
+    </b-tabs>
+
+    <b-tabs align="right">
+      <b-tab title="First" ><p>I'm the first tab</p></b-tab>
+      <b-tab title="Second" active><p>I'm the second tab</p></b-tab>
+      <b-tab title="Disabled" disabled><p>I'm the disabled tab</p></b-tab>
+    </b-tabs>
+
+    <b-tabs vertical end>
+      <b-tab title="First" ><p>I'm the first tab</p></b-tab>
+      <b-tab title="Second" active><p>I'm the second tab</p></b-tab>
+      <b-tab title="Disabled" disabled><p>I'm the disabled tab</p></b-tab>
+    </b-tabs>
   </div>
 </template>
 

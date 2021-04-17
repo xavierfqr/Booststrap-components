@@ -69,7 +69,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .dropdown-container {
     text-align: center;
@@ -101,6 +101,10 @@ export default {
     padding: 0;
 }
 
+.dropdown-header-split, .dropdown-header-content{
+    height: 100%;
+}
+
 .dropdown-header-split .dropdown-header-content .dropdown-btn {
     padding: .85rem;
 }
@@ -125,6 +129,34 @@ export default {
 .secondary:hover {
     background-color: #6c657d;
 }
+
+.success{
+    background-color: #28a745;
+}
+.success:hover{
+    background-color:#218838
+}
+
+.info{
+    background-color: #17a2b8;
+}
+
+.warning{
+    background-color: #ffc107;
+}
+
+.warning:hover{
+    background-color: #e0a800;
+}
+
+.danger{
+    background-color: #dc3545;
+}
+
+.danger:hover{
+    background-color: #bd2130;
+}
+
 
 .dropdown-title {
     color: white;

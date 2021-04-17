@@ -42,12 +42,10 @@ export default {
 
 </script>
 
-<style>
-a {
-  text-decoration: none; /* no underline */
-}
+<style scoped>
 
 .container{
+    z-index: 10;
     width: 100%;
     background-color: lightblue;
     font-weight: 500;
